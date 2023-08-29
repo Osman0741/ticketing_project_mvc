@@ -76,13 +76,8 @@ public class ProjectServiceImpl extends AbstractMapService<ProjectDTO,String> im
 
                     return project;
 
-
                 })
                 .collect(Collectors.toList());
-
-
-
-
 
         return projectList;
 
